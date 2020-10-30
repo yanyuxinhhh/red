@@ -1,0 +1,288 @@
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-color: rgba(250, 251, 252);
+    }
+
+    .guide {
+        width: 100%;
+        height: 51px;
+        background-color: rgba(88, 76, 192);
+    }
+
+    .guide li {
+
+        display: inline-block;
+
+        font: 20px 微软雅黑;
+        line-height: 51px;
+
+    }
+
+    .guide li:hover {
+        text-align: center;
+        background-color: rgba(71, 59, 180);
+        height: auto;
+
+    }
+
+    .guide a {
+        text-decoration: none;
+        color: white;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+
+
+    .guide ul {
+
+        text-align: center;
+    }
+
+    .guide .search {
+        display: inline-block;
+        border-radius: 10px;
+        height: 20px;
+        width: 120px;
+    }
+
+    .title1 {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        color: rgba(90, 82, 194);
+    }
+
+    .banner1 {
+        position: relative;
+        top: 220px;
+        left: 200px;
+        width: 1030px;
+        height: 370px;
+        background-color: yellow;
+    }
+
+    .right {
+        width: 200px;
+        height: 370px;
+        background-color: rgba(255, 255, 255);
+        float: left;
+    }
+
+    .right ul {
+        text-align: center;
+    }
+
+    .right li {
+        list-style: none;
+        line-height: 74px;
+
+    }
+
+    .right a {
+
+        text-decoration: none;
+        color: black;
+    }
+
+    .banner1 li:hover {
+        text-align: center;
+        background-color: rgba(153, 145, 248);
+        height: auto;
+    }
+
+    .banner1 a:hover {
+        color: white;
+    }
+
+    .left {
+
+        display: flex;
+        justify-content: space-around;
+
+        width: 830px;
+        height: 370px;
+        /* float: right; */
+        background-color: rgba(255, 255, 255);
+
+    }
+
+    .box1 {
+        margin-top: 30px;
+        width: 250px;
+        height: 300px;
+        background-color: rgba(255, 255, 255);
+        display: inline-block;
+
+    }
+
+    .left .pic {
+
+        text-align: center;
+    }
+
+    /* prat2 */
+    .banner2{
+        
+        
+width: 1030px;
+height: 480px;
+background-color:rgba(255, 255, 255);
+position: relative;
+top:352px;
+left: 200px;
+    }
+    .title2{
+        position: absolute;
+        top: 700px;
+        left: 200px;
+        color: rgba(90, 82, 194);
+    }
+    .banner2 ul{
+text-align: lfet;
+    }
+    .banner2 li{
+        display: inline-block;
+
+        font: 20px 微软雅黑;
+        line-height: 51px;
+    }
+    .banner2 a{
+        margin-left: 30px;
+        margin-right: 30px;
+        color:rgba(122, 123, 123);
+text-decoration: none;
+    }
+    .banner2 li:hover{
+
+ border-bottom: solid 2px rgba(255, 157, 94);
+    }
+    .contanier{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1px;
+width: 1030px;
+height: 480px;
+background-color:rgba(255, 255, 255) ;
+    }
+    .b1{
+       
+        width: 317px;
+        height: 480px;
+        background-color: rgba(255, 255, 255);;
+    }
+    .b1 img{
+        width: 317px;
+        height: 255px;
+    }
+    .b1 .hot {
+        width: 30px;
+        height: 40px;
+
+position: absolute;
+top:-1px;
+left: 13px;
+    }
+    .b1 .remen{
+        width: 17px;
+        height: 17px;
+        
+        position: absolute;
+top:7px;
+left: 16px;
+    }
+    .b1 .juxing1{
+        width: 317px;
+        height: 50px;
+        position: absolute;
+        top: 205px;
+        left: 12px;
+    }
+    .b1 .juxing2{
+        width: 317px;
+        height: 50px;
+        position: absolute;
+        top: 205px;
+        left: 356px;
+    }
+    .b1 .juxing3{
+        width: 317px;
+        height: 50px;
+        position: absolute;
+        top: 205px;
+        left: 699px;
+    }
+    .b1 .wenzi1{
+        width: 108px;
+        height: 13px;
+        position: absolute;
+        top: 229px;
+        left: 79px;
+       
+    }
+    .b1 .wenzi2{
+        width: 108px;
+        height: 13px;
+        position: absolute;
+        top: 229px;
+        left: 402px;
+       
+    }
+    .b1 .wenzi3{
+        width: 108px;
+        height: 13px;
+        position: absolute;
+        top:229px;
+        left: 749px;
+       
+    }
+    .b1 .A1 img{
+width: 172px;
+height: 55px;
+position: absolute;
+top: 380px;
+left: 155px;
+    }
+    .b1 .A2 img{
+        width: 192px;
+        height: 55px;
+        position: absolute;
+top: 380px;
+left:476px;
+            }
+            .b1 .A3 img{
+                width: 192px;
+                height: 55px;
+                position: absolute;
+top: 380px;
+left: 822px;
+                    }
+                    .b1 .a1{
+                        position: absolute;
+                        color:white;
+                        text-decoration: none;
+                       top: 398px;
+                       left: 180px;
+                    }
+                    .b1 .a2{
+                        position: absolute;
+                        color:white;
+                        text-decoration: none;
+                       top: 398px;
+                       left: 509px;
+                    }
+                    .b1 .a3{
+                        position: absolute;
+                        color:white;
+                        text-decoration: none;
+                       top: 398px;
+                       left: 852px;
+                     
+                    }
+                
